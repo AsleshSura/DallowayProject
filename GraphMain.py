@@ -30,6 +30,7 @@ def create_frequency_graph(counts, search_string, bin_size):
     plt.ylabel('Number of Occurrences')
     plt.grid(True)
     plt.show()
+    plt.savefig('image.png')
 
 
 def main():

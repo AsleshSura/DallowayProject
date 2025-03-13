@@ -10,3 +10,6 @@ filtered = [
     if line.strip()
 ]
 Sentences.write('\n'.join(filtered))
+
+Temp.close()
+Sentences.close() 
